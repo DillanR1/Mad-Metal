@@ -1,6 +1,10 @@
 .navbar {
   /* Linear Gradient is used as a "fade", below black is fading to red from left to right */
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(94, 8, 8) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(28, 27, 27) 0%,
+    rgb(94, 8, 8) 100%
+  ) !important;
   height: 80px;
   display: flex;
   justify-content: center;

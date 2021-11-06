@@ -14,6 +14,9 @@ function Backdrop() {
       <div className="hero-container">
         <img src="../images/hero_car.jpg" alt="" />
       </div>
+      <div className="hero-container">
+        <img src="../images/bird-catcher.jpg" alt="" />
+      </div>
     </div>
   );
 }
