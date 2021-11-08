@@ -8,10 +8,6 @@ img {
   border-radius: 15px;
 }
 
-.hero-container {
-  z-index: 1;
-}
-
 h1 {
   color: rgba(255, 255, 255, 0.918);
 }

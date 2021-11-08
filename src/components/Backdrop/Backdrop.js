@@ -1,17 +1,23 @@
 import React from "react";
 import "../Backdrop/Backdrop.css";
-import Img_container from "../Img_container/Img_container";
-import Text_banner from "../Text_banner/Text_banner";
+
 // import "../../App.css";
 
 function Backdrop() {
   return (
     <div className="container">
-      <>
-        <Text_banner />
+      <img
+        className="background-image"
+        src="../images/bird-catcher.jpg"
+        alt=""
+      />
+
+      <h1>Mad Metal</h1>
+      <p>EFI peformance tuning machining powder coating</p>
+
+      {/* <div>
         <Img_container src="../images/hero_car.jpg" />
-        <Img_container src="../images/bird-catcher.jpg" />
-      </>
+      </div> */}
     </div>
   );
 }
