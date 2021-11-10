@@ -11,10 +11,13 @@ function Backdrop() {
         src="../images/bird-catcher.jpg"
         alt=""
       />
-
-      <h1>Mad Metal</h1>
-      <p>EFI peformance tuning machining powder coating</p>
-
+      <div className="banner">
+        <ul className="bullets">
+          <li className="bullet">EFI peformance tuning</li>
+          <li className="bullet"> custom machining</li>
+          <li className="bullet"> & powder coating</li>
+        </ul>
+      </div>
       {/* <div>
         <Img_container src="../images/hero_car.jpg" />
       </div> */}

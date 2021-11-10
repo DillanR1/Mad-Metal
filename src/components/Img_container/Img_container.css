@@ -1,5 +1,4 @@
-img {
-  object-fit: fill;
+.item {
   justify-self: center;
   height: auto;
   width: 60%;
@@ -8,7 +7,7 @@ img {
   border-radius: 15px;
 }
 
-h1 {
+/* h1 {
   color: rgba(255, 255, 255, 0.918);
 }
 
@@ -22,7 +21,7 @@ p {
   display: flex;
   flex-direction: column row-reverse;
 
-  /* box-shadow: inset 0 0 0 1000px rgba(116, 55, 55, 0.007); */
+  box-shadow: inset 0 0 0 1000px rgba(116, 55, 55, 0.007);
 
   margin: 0 auto;
-}
+} */

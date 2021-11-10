@@ -1,19 +1,29 @@
 .background-image {
   object-fit: cover;
   width: 100%;
-  height: 95%;
+  height: 100%;
   position: fixed;
   z-index: -1;
 }
 
+.bullets {
+  display: inline;
+  color: aliceblue;
+  font-size: 50px;
+}
+
+.bullet {
+  display: inline;
+}
+
 .container {
-  height: 95vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.123);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.25);
   object-fit: contain;
 }
 
@@ -30,6 +40,13 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-family: "PT Sans", sans-serif;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 960px) {
