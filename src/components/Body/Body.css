@@ -2,13 +2,15 @@
   background: black;
   height: 100%;
   width: 100%;
+  opacity: 70%;
+  border-radius: 30px;
 }
 
 .text-box {
   height: 500px;
   width: 45vw;
   border: 10px solid #fff;
-  background: blue;
+  background: black;
 }
 
 .text {

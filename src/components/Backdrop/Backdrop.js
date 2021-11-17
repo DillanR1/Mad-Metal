@@ -13,9 +13,13 @@ function Backdrop() {
       />
       <div className="banner">
         <ul className="bullets">
-          <li className="bullet">EFI peformance tuning</li>
-          <li className="bullet"> custom machining</li>
-          <li className="bullet"> & powder coating</li>
+          <li className="bullet">
+            <i class="fas fa-angle-double-right"></i>EFI peformance tuning.
+          </li>
+          <li className="bullet">Custom machining.</li>
+          <li className="bullet">
+            Powder coating.<i class="fas fa-angle-double-left"></i>
+          </li>
         </ul>
       </div>
       {/* <div>

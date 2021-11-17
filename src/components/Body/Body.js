@@ -9,9 +9,7 @@ function Body() {
         <h1> Insert text and pictures</h1>
 
         <div className="text-box">
-          <div className="text">
-            Here is more text. Lets talk about how awesome mad metal is.
-          </div>
+          <div className="text">Mad Metal Inc. specializes in</div>
         </div>
       </div>
       <ImgContainer src="steam_roller.jpeg" />
