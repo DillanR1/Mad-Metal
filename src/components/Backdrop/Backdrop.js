@@ -5,12 +5,33 @@ import "../Backdrop/Backdrop.css";
 
 function Backdrop() {
   return (
-    <div className="container">
-      <img
-        className="background-image"
-        src="../images/bird-catcher.jpg"
-        alt=""
-      />
+    <div className="backdrop-container">
+      <div class="info-box" id="text-1">
+        <p class="intro-text">
+          Yo! I hear you need some sample text so this is all the sample text I
+          got. Just for you!
+        </p>
+      </div>
+
+      <div class="pic" id="pic-1">
+        <img src="../images/bird-catcher.jpg" alt="" class="backdrop-image" />
+      </div>
+
+      <div class="pic" id="pic-2">
+        <img src="../images/steam_roller.jpeg" alt="" class="backdrop-image" />
+      </div>
+
+      <div class="pic" id="pic-1">
+        <img src="../images/bird-catcher.jpg" alt="" class="backdrop-image" />
+      </div>
+
+      {/* <div class="info-box" id="text-2">
+        <p class="intro-text">
+          Yo! I hear you need some sample text so this is all the sample text I
+          got. Just for you!
+        </p>
+      </div> */}
+
       <div className="banner">
         <ul className="bullets">
           <li className="bullet">
@@ -22,9 +43,6 @@ function Backdrop() {
           </li>
         </ul>
       </div>
-      {/* <div>
-        <Img_container src="../images/hero_car.jpg" />
-      </div> */}
     </div>
   );
 }
