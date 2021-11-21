@@ -1,16 +1,9 @@
 import React from "react";
 import "../App.css";
-
-import Backdrop from "./Backdrop/Backdrop";
-import Body from "./Body/Body";
+import Slider from "./Slider/Slider";
 
 function Home() {
-  return (
-    <>
-      <Backdrop />
-      <Body />
-    </>
-  );
+  return <Slider />;
 }
 
 export default Home;

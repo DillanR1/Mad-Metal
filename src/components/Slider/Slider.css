@@ -1,0 +1,37 @@
+.carousel,
+.carousel:active {
+  padding-top: 50px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.slider-images {
+  margin: 0 auto;
+  max-width: 900px;
+  overflow: hidden;
+}
+
+.carousel-caption {
+  font-size: x-large;
+}
+
+/* .carousel-control-next,
+.carousel-control-prev,
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #212529;
+  border-radius: 25px;
+  opacity: 1;
+  width: 8%;
+  top: 50px;
+  border: none;
+  margin: 0, 10px, 0, 10px;
+} */
