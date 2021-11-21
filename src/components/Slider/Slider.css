@@ -1,7 +1,12 @@
+.slider-container {
+  background: rgba(83, 83, 83, 0.651);
+}
+
 .carousel,
 .carousel:active {
   padding-top: 50px;
-  width: 900px;
+  padding-bottom: 50px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -9,29 +14,31 @@
   margin: 0 auto;
   max-width: 900px;
   overflow: hidden;
+  border-radius: 30px;
 }
 
-.carousel-caption {
+.carousel-caption h5,
+p {
   font-size: x-large;
+  color: rgb(255, 255, 255);
 }
 
-/* .carousel-control-next,
-.carousel-control-prev,
+.carousel-control-next-icon,
+.carousel-control-prev-icon,
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  width: 100px;
-  height: 100px;
+  width: 10rem !important;
+  height: 10rem !important;
 }
 
 .carousel-control-next,
-.carousel-control-prev,
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  background-color: #212529;
+.carousel-control-prev {
+  background-color: #0f4d8b;
+  color: aqua;
   border-radius: 25px;
   opacity: 1;
   width: 8%;
   top: 50px;
   border: none;
   margin: 0, 10px, 0, 10px;
-} */
+}
