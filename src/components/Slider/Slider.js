@@ -6,6 +6,19 @@ function Slider() {
   return (
     <>
       <div className="slider-container">
+        <div className="info-text">
+          <h1>Welcome to Mad Metal Inc.</h1>
+          <h2>
+            From custom cruisers to dedicated speed machines, we offer a wide
+            array of services for all hotrod enthusiasts{" "}
+          </h2>
+          <h4>
+            Whether you want to restore dad's old hotrod to its former glory,
+            wake up a sleepy car with some performance modifications or you have
+            a specific project inquiry, We'd love to help make your automotive
+            dreams a reality!
+          </h4>
+        </div>
         <Carousel variant="light">
           <Carousel.Item>
             <img
@@ -21,7 +34,7 @@ function Slider() {
           <Carousel.Item>
             <img
               className="slider-images d-block w-100"
-              src="../images/bird-catcher.jpg"
+              src="../images/cnc-machine.jpeg"
               alt="Second slide"
             />
             <Carousel.Caption>
@@ -32,7 +45,7 @@ function Slider() {
           <Carousel.Item>
             <img
               className="slider-images d-block w-100"
-              src="../images/bird-catcher.jpg"
+              src="../images/roadster.jpeg"
               alt="Third slide"
             />
             <Carousel.Caption>

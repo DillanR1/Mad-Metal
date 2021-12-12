@@ -1,5 +1,5 @@
 .slider-container {
-  background: rgba(83, 83, 83, 0.651);
+  background: rgba(0, 0, 0, 0.918);
 }
 
 .carousel,
@@ -12,9 +12,10 @@
 
 .slider-images {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 850px;
+  height: 500px;
   overflow: hidden;
-  border-radius: 30pxn;
+  border-radius: 30px;
 }
 
 .carousel-caption h5,
@@ -41,4 +42,9 @@ p {
   top: 50px;
   border: none;
   margin: 0, 10px, 0, 10px;
+}
+
+.info-text {
+  color: aliceblue;
+  align-items: center;
 }
