@@ -9,14 +9,14 @@ function Slider() {
         <div className="info-text">
           <h1>Welcome to Mad Metal Inc.</h1>
           <h2>
-            From custom cruisers to dedicated speed machines, we offer a wide
-            array of services for all hotrod enthusiasts{" "}
+            Owner and operator Dave Jensen specializes in fuel delivery systems,
+            custom C&C machining, tuning, and forced induction.
           </h2>
-          <h4>
+          <h4 className="more-info">
             Whether you want to restore dad's old hotrod to its former glory,
             wake up a sleepy car with some performance modifications or you have
-            a specific project inquiry, We'd love to help make your automotive
-            dreams a reality!
+            a specific project inquiry, Mad Metal is here to help achieve your
+            performance goals.
           </h4>
         </div>
         <Carousel variant="light">

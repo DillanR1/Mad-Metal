@@ -1,0 +1,3 @@
+
+I used the css property "object-fit: cover;" -- make both wide and tall images fit the slider (portrait and landscape)
+Images were stretched or too skinny prior to object fit cover 

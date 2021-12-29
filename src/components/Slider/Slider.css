@@ -12,9 +12,9 @@
 
 .slider-images {
   margin: 0 auto;
-  max-width: 850px;
   height: 500px;
   overflow: hidden;
+  object-fit: cover;
   border-radius: 30px;
 }
 
@@ -45,6 +45,13 @@ p {
 }
 
 .info-text {
+  margin: 0 auto;
+  max-width: 1300px;
   color: aliceblue;
-  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
+
+.more-info {
 }
